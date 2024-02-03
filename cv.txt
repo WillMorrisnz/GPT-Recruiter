@@ -1,0 +1,55 @@
+William Morris
+Full Stack Software Engineer | Software Developer
+
+Professional Summary:
+Experienced Full Stack Software Engineer with a BSc in Computer Science, specialised in web application development using diverse technologies. Proficient in creating scalable, functional software solutions. I recently moved to Melbourne and I'm eager to contribute to projects with my technical background and strong teamwork, communication and soft skills.
+
+Skills:
+Languages: Javascript, HTML, Python, CSS, PHP, SQL, Typescript, Java, C
+Frameworks/Libraries: React, Vuejs (Vue), Laravel, Django, Spring Boot, Node (Nodejs), NextJS
+DevOps & Cloud Technologies: AWS Cloud, Docker, Ansible, CI/CD pipelines, Grafana, Prometheus
+Database Systems: SQL (PostgreSQL, MySQL), NoSQL (DynamoDB)
+Software Development Practices: Scrum, Agile, TDD, SDLC, SOLID, MVVM, MVC
+Tools: Git, Github, Bitbucket
+Other Skills: API Development, Documentation, Architecture Design
+
+Education:
+Bachelor of Science - Computer Science (02/2018 - 11/2021)
+University of Canterbury, New Zealand
+
+Certifications:
+AWS Certified Solution Architect Associate (05/2023)
+AWS Certified Cloud Practitioner (04/2023)
+New Zealand, First Aid Level 1 Certificate (08/2022)
+
+Work Experience:
+Steam Marketplace Arbitrage Algorithm
+Personal Project: (07/2022 - Current)
+Designed technical solutions to automate processes through strong problem solving skills, architecture design and innovative thinking. Disciplinary areas which were involved are artificial intelligence (AI), data science, cloud technologies, dev ops, quantitative analysis, data transformation, API.
+Devised a genetic algorithm to act on profitable arbitrage opportunities in Nodejs (Node) with javascript. The algorithm exploits price differences of items on the steam marketplace and uses statistics and AI to execute on profitable arbitrage opportunities.
+Demonstrated proficiency in Python for complex algorithm development, data manipulation, and statistical analysis. Utilised AWS services like DynamoDB.
+Builderscrack (03/2022 - 11/2022)
+Junior Full Stack Software Engineer
+Developed and deployed advanced monitoring solutions for hardware and software using Ansible, Grafana, and Prometheus, reducing system downtime significantly.
+Turned product requirements and designs into functional web pages and components using PHP, Laravel, Bootstrap 3/4, JQuery, Ansible, HTML and CSS.
+Implemented UI/UX functionality for switching to a subscriptions pricing model, to create a more consistent revenue stream for the business.
+Implemented a customizable ‘my profile’ html snippet for users to share their builderscrack profile on their website.
+Collaboratively contributed to project backlogs with strong communication and teamwork. I helped create an inclusive culture within the team and built strong relationships with the people around me.
+Implemented End To End testing to identify bugs and speed up development.
+
+Stock Portfolio Tracker React Application
+Personal Project: (2020 - 2021)
+I created an application (React, Django) with a focus on the front end to track a user's stock portfolio. I created a custom user interface (UI) with interactive graphs (VisX, D3) to visualise portfolio performance, transaction history and create a fluid, enjoyable user experience (UX). 
+
+Software Engineering Group Project
+University of Canterbury, course SENG 302: (2021)
+I proactively contributed as a team member to create an activity management application using VueJs, Java, SpringBoot, Maven, Javascript, Relational database. We followed Agile and Scrum methodologies, conducted standups, code reviews, retrospectives and task planning, task estimation and sprint reviews.
+I implemented a core part of our full stack application, on the front end I created an interactive map (leaflet and VueJs) to display activity locations and pathing of activities where users could add waypoints similar to google maps with routing between waypoints.
+On the backend I created unit tests, following TDD and used CI/CD pipelines as well as ensuring quality code with code reviews. I added documentation to ensure the code I developed was maintainable, readable, and documented following the SDLC.
+
+Billing, Debt Management and Point of Sale Application for My University Canteen
+University Hall of Residence Canteen: (2019)
+I was the team leader of my university hall of residence’s canteen. An initiative I implemented to reduce the admin time was I developed software which was a self checkout system and debt tracking software which served 170 students. This reduced admin time by 400% which contributed to $6,000 profit over the year.
+
+Interests: 
+Bouldering, Tennis, Golf, Entrepreneurship
