@@ -140,6 +140,7 @@ def evaluate_seek_job_listings(search_term, num_jobs, save_to_db=True):
           job_id = 'seek_' + key
           cover_letter = None
           if int(job_data_dict[key]['job_fit_evaluation']['Relevant Experience']['rating']) >= 4:
+            print("-- Creating Cover Letter --")
             cover_letter = craft_cover_letter_for_role(cv, job_description)
 
           database_service.insert_job_listing_to_db(job_id, job_data_dict[key], cover_letter)
@@ -154,4 +155,4 @@ def evaluate_seek_job_listings(search_term, num_jobs, save_to_db=True):
 
 # res = craft_cover_letter_for_role(cv, job_description)
 # print(res)
-seek_jobs_dict = evaluate_seek_job_listings('Graduate', 40)
+seek_jobs_dict = evaluate_seek_job_listings('Front End', 20)
