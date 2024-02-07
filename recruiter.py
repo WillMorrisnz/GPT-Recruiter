@@ -81,7 +81,6 @@ def evaluate_cv_against_job_description(cv, job_description, evaluation_categori
   return json_res
  
 
-
 # -------------------------
 
 
@@ -155,4 +154,4 @@ def evaluate_seek_job_listings(search_term, num_jobs, save_to_db=True):
 
 # res = craft_cover_letter_for_role(cv, job_description)
 # print(res)
-seek_jobs_dict = evaluate_seek_job_listings('AWS', 40)
+seek_jobs_dict = evaluate_seek_job_listings('Graduate', 40)

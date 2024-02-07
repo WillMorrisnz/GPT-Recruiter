@@ -41,7 +41,7 @@ def insert_job_listing_to_db(job_id, job_data, cover_letter=None):
     cursor.execute('''INSERT INTO job_listings (id, title, company, work_type, description, url,
                      technical_skills_rating, education_certifications_rating,
                      soft_skills_cultural_fit_rating, relevant_experience_rating, evaluation_details, cover_letter)
-                     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)''', 
+                     VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)''', 
                      (job_id, job_data['title'], job_data['advertiser'], job_data['work_type'], 
                       job_data['description'], job_data['url'], technical_skills_rating, 
                       education_certifications_rating, soft_skills_cultural_fit_rating, 
@@ -67,5 +67,6 @@ def job_id_exists(job_id):
     result = cursor.fetchone()
     conn.close()
     return result is not None
+
 
     
