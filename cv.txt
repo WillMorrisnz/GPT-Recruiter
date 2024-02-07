@@ -8,7 +8,7 @@ Skills:
 Languages: Javascript, HTML, Python, CSS, PHP, SQL, Typescript, Java, C
 Frameworks/Libraries: React, Vuejs (Vue), Laravel, Django, Spring Boot, Node (Nodejs), NextJS
 DevOps & Cloud Technologies: AWS Cloud, Docker, Ansible, CI/CD pipelines, Grafana, Prometheus
-Database Systems: SQL (PostgreSQL, MySQL), NoSQL (DynamoDB)
+Database Systems: SQL (PostgreSQL, MySQL), NoSQL (DynamoDB), Redis
 Software Development Practices: Scrum, Agile, TDD, SDLC, SOLID, MVVM, MVC
 Tools: Git, Github, Bitbucket
 Other Skills: API Development, Documentation, Architecture Design
@@ -28,6 +28,7 @@ Personal Project: (07/2022 - Current)
 Designed technical solutions to automate processes through strong problem solving skills, architecture design and innovative thinking. Disciplinary areas which were involved are artificial intelligence (AI), data science, cloud technologies, dev ops, quantitative analysis, data transformation, API.
 Devised a genetic algorithm to act on profitable arbitrage opportunities in Nodejs (Node) with javascript. The algorithm exploits price differences of items on the steam marketplace and uses statistics and AI to execute on profitable arbitrage opportunities.
 Demonstrated proficiency in Python for complex algorithm development, data manipulation, and statistical analysis. Utilised AWS services like DynamoDB.
+
 Builderscrack (03/2022 - 11/2022)
 Junior Full Stack Software Engineer
 Developed and deployed advanced monitoring solutions for hardware and software using Ansible, Grafana, and Prometheus, reducing system downtime significantly.

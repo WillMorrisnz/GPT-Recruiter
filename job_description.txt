@@ -1,44 +1,46 @@
-AWS Engineer
-SelfWealth
+Junior Software Consultant
+Imagemation
 Melbourne VIC, Australia
-Engineering - Software (Information & Communication Technology)
+Business/Systems Analysts (Information & Communication Technology)
 Full time
-Posted 1d ago
+Posted 7d ago
 More jobs from this company
-About Selfwealth:
+ClickHome is the leading provider of construction management solutions in Australia. Our core product is the ClickHome software system and our clients include most of the top home builders in each state.
 
-Selfwealth is a rapidly growing FinTech scale-up revolutionizing the Australian investing landscape. We empower everyday Australians to take control of their financial future with a low-cost, user-friendly investment platform. Our mission is to make investing accessible and affordable for everyone.
+The successful candidate will join our existing implementation team, where we will mentor you as you will play an integral part in future implementation and system integration projects.  In this role you will get to work directly with external clients and will use your technical and business process skills.
 
-About the Role:
+The Location
 
-We're seeking a passionate and skilled AWS Engineer to join our talented team and play a key role in building and maintaining our robust, scalable cloud infrastructure. You'll be a crucial part of ensuring our platform's high performance, security, and reliability, allowing us to deliver an exceptional experience for our growing user base.
+Our Victoria Office is located in the CBD. You will also be meeting with clients all over Melbourne.
 
-Responsibilities:
+The role:
 
-Design, implement, and manage secure and scalable cloud infrastructure solutions on AWS, utilizing services like EC2, S3, SQS, DynamoDB, Lambda, ECS, and CloudFormation.
-Automate infrastructure deployments and provisioning through IaC tools like Terraform and Github Actions.
-Develop and implement CI/CD pipelines for containerized applications using ECS and Fargate.
-Implement comprehensive monitoring and alerting solutions to ensure platform health and proactively address potential issues.
-Perform ongoing performance optimization and cost management of the cloud infrastructure.
-Collaborate with developers and other engineers to integrate AWS services into applications and microservices.
-Stay up-to-date with the latest AWS technologies and best practices, and actively contribute to our internal knowledge sharing processes.
-Participate in security reviews and ensure adherence to strict security standards.
-Qualifications:
+We are looking for an ambitious and focused Software Implementation consultant wanting to advance their career. The number 1 priority is to successfully implement clients onto the software. The key measures for success being time, budget, efficient resource management and an overall positive client experience.
 
-3+ years of experience working as an AWS Engineer or in a similar cloud-based role.
-Proven experience designing, building, and managing secure and scalable cloud architectures.
-In-depth knowledge of AWS services, including EC2, S3, SQS, DynamoDB, Lambda, ECS, CloudFormation, IAM, and AWS CLI.
-Strong understanding of CI/CD principles and experience with tools like Terraform and Github Actions.
-Experience with containerization technologies like Docker and Kubernetes.
-Excellent problem-solving skills and a proactive approach to identifying and resolving technical issues.
-Strong communication and collaboration skills, with the ability to work effectively with cross-functional teams.
-Passion for FinTech and enthusiasm for contributing to Selfwealth's mission to democratize investing.
-Bonus Points:
+Essential skills and experience:
 
-Experience with serverless architectures and event-driven programming.
-Experience with AWS Step Functions and AWS X-Ray.
-AWS Certifications (e.g., Solutions Architect Associate, Developer Associate).
-Selfwealth champions a diverse and inclusive workforce, understanding that candidates from varied backgrounds might not apply if they don't tick every box. We recognise the challenges of imposter syndrome and encourage those with unique insights to apply – your ideas could be the key to our team’s innovation and success.
+•             Good communication skills, face to face, verbal and written
 
+•             Comfortable presenting or speaking to groups of different authority levels
 
-Don’t let self-doubt prevent you from a great opportunity – we look forward to connecting with you.
+•             Must be a self starter, motivated and able to work independently.
+
+•             A demonstrated passion in both software and systems.
+
+•             IT skills in SQL and database type applications will be highly regarded.
+
+•             Have the ability to understand customer needs and requirements and recognise how to translate them to solutions.
+
+Application Requirements:
+
+Must be able to work in Australia (PR or citizen)
+
+Must be based in Melbourne
+
+Employer questions
+Your application will include the following questions:
+Which of the following statements best describes your right to work in Australia?
+What's your expected annual base salary?
+Have you completed a qualification in ICT?
+Do you have a current Australian driver's licence?
+How many years' experience do you have using SQL queries?

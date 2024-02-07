@@ -9,14 +9,13 @@ import re
 load_dotenv()
 API_KEY = os.getenv('SCRAPING_BEE_API_KEY')
 
+
+# -------------------------
+
+
 def extract_text_by_data_automation(html_content, attribute_value, element_type):
-    # Parse the HTML content
     soup = BeautifulSoup(html_content, 'lxml')
-    
-    # Find the <element> by data-automation attribute
     element = soup.find(element_type, attrs={'data-automation': attribute_value})
-    
-    # Return the text from the element, or None if the element wasn't found
     return element.get_text(strip=True) if element else None
 
 
@@ -42,7 +41,7 @@ def parallel_proxy_scrape_with_retries(urls):
     with ThreadPoolExecutor(max_workers=5) as executor:
         future_to_url = {executor.submit(scrape, url): url for url in urls}
         for future in as_completed(future_to_url):
-            print(f"{len(html_data)} / {len(urls)}")
+            print(f"{len(html_data) + 1} / {len(urls)}")
             result = future.result()
             if result is not None:
                 html_data.append(result)
@@ -53,7 +52,7 @@ def parallel_proxy_scrape_with_retries(urls):
 # -------------------------
 
 
-def construct_seek_search_link(search_term='Engineer', job_category='information-communication-technology', search_distance='10'):
+def construct_seek_search_link(search_term, job_category='information-communication-technology', search_distance='10'):
     return f'https://www.seek.co.nz/{search_term}-jobs-in-{job_category}/in-Abbotsford-VIC-3067-AU?distance={search_distance}'
 
 
@@ -104,8 +103,9 @@ def extract_job_id_from_url(url):
 # -------------------------
 
 
-def scrape_job_descriptions(job_page_links):
+def scrape_job_descriptions(job_page_links, num_jobs):
     job_listing_data = dict()
+    job_page_links = job_page_links[:min(len(job_page_links), num_jobs)]
     html_content = parallel_proxy_scrape_with_retries(job_page_links)
     for scrape_content in html_content:
         url = scrape_content[0]
@@ -132,9 +132,9 @@ def scrape_job_descriptions(job_page_links):
 # -------------------------
 
 
-def scrape_seek_job_data(num_pages=1):
-    seek_search_link = construct_seek_search_link()
-    job_page_links = scrape_job_page_links_from_seek(seek_search_link, num_pages)
-    job_data_dict = scrape_job_descriptions(job_page_links)
+def scrape_seek_job_data(search_term='Engineer', num_jobs=22):
+    seek_search_link = construct_seek_search_link(search_term)
+    job_page_links = scrape_job_page_links_from_seek(seek_search_link, num_jobs // 22 + 1)
+    job_data_dict = scrape_job_descriptions(job_page_links, num_jobs)
     return job_data_dict
 
