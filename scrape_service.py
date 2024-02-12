@@ -135,7 +135,7 @@ def scrape_job_descriptions(job_page_links, num_jobs):
 
 # -------------------------
 
- # TODO: There is a bug in this with the number of jobs / pages
+
 def scrape_seek_job_data(job_searh_radius_km, search_term='Engineer', num_jobs=20):
     seek_search_link = construct_seek_search_link(search_term, search_distance=job_searh_radius_km)
     job_page_links = scrape_job_page_links_from_seek(seek_search_link, num_jobs)
