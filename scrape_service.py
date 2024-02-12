@@ -4,6 +4,7 @@ from dotenv import load_dotenv
 import os
 from bs4 import BeautifulSoup
 import re
+import math
 
 
 load_dotenv()
@@ -59,16 +60,19 @@ def construct_seek_search_link(search_term, job_category='information-communicat
 # -------------------------
 
 
-def scrape_job_page_links_from_seek(seek_search_link, num_pages=1):
+def scrape_job_page_links_from_seek(seek_search_link, num_jobs=1):
     urls = []
-    for page in range(0, num_pages):
-        urls.append(f"{seek_search_link}&page={page}") 
+    for page in range(1, math.ceil(num_jobs // 20) + 1):
+        urls.append(f"{seek_search_link}&page={page}")
+    
     job_listings = parallel_proxy_scrape_with_retries(urls)
     
     job_urls = set() 
     for job in job_listings:
         job_url = extract_job_urls(job[1]) 
-        job_urls.update(job_url) 
+        job_urls.update(job_url)
+        if len(job_urls) >= num_jobs:
+            break 
 
     return list(job_urls)
 
@@ -132,9 +136,9 @@ def scrape_job_descriptions(job_page_links, num_jobs):
 # -------------------------
 
  # TODO: There is a bug in this with the number of jobs / pages
-def scrape_seek_job_data(search_term='Engineer', num_jobs=22):
-    seek_search_link = construct_seek_search_link(search_term)
-    job_page_links = scrape_job_page_links_from_seek(seek_search_link, num_jobs // 22 + 1)
+def scrape_seek_job_data(job_searh_radius_km, search_term='Engineer', num_jobs=20):
+    seek_search_link = construct_seek_search_link(search_term, search_distance=job_searh_radius_km)
+    job_page_links = scrape_job_page_links_from_seek(seek_search_link, num_jobs)
     job_data_dict = scrape_job_descriptions(job_page_links, num_jobs)
     return job_data_dict
 

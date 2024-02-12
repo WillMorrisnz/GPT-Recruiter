@@ -1,46 +1,69 @@
-Junior Software Consultant
-Imagemation
-Melbourne VIC, Australia
-Business/Systems Analysts (Information & Communication Technology)
+SOFTWARE ENGINEER - FRONT END
+Rauland Australia Pty Ltd
+North Melbourne, Melbourne VIC, Australia
+Engineering - Software (Information & Communication Technology)
 Full time
-Posted 7d ago
+Solid salary + Super + Learning leave (AUD)
+Posted 4d ago
 More jobs from this company
-ClickHome is the leading provider of construction management solutions in Australia. Our core product is the ClickHome software system and our clients include most of the top home builders in each state.
+North Melbourne based
 
-The successful candidate will join our existing implementation team, where we will mentor you as you will play an integral part in future implementation and system integration projects.  In this role you will get to work directly with external clients and will use your technical and business process skills.
+Develop on cutting-edge technologies such as .NET, React, Cloud, AI, IoT etc.
+Where innovation and collaboration deliver solutions that are ahead of the market
+Leading healthcare technology provider across Australia and New Zealand
+Recent growth and success paired with our future vision has prompted the need to enhance our Development Team by adding proven and capable Front-End Engineering talent, as we are undertaking exciting new projects in a wide range of technologies. 
 
-The Location
+Working closely with the Engineering Leads and Product Owners, your immediate team, other Rauland teams and customers, you will be involved in a variety of projects working on cutting-edge solutions, improving the healthcare experience for patients and staff in the acute health, mental health and aged care sectors.
 
-Our Victoria Office is located in the CBD. You will also be meeting with clients all over Melbourne.
+About You:
 
-The role:
+You enjoy the company of passionate, enthusiastic and motivated peers in a highly collaborative Agile team. You are passionate about excellence in customer service, excited about continuously challenging yourself, developing your knowledge, taking ownership of your responsibilities, and having your team’s backs.
 
-We are looking for an ambitious and focused Software Implementation consultant wanting to advance their career. The number 1 priority is to successfully implement clients onto the software. The key measures for success being time, budget, efficient resource management and an overall positive client experience.
+You will:
 
-Essential skills and experience:
+Focus on front-end and UI aspects of our product lines.
+Get an opportunity to be exposed to a wide range of technologies.
+Enjoy involvement in all aspects of development and will help drive improvements.
+Have an opportunity to continuously develop and learn.
+Qualifications and Experience: 
 
-•             Good communication skills, face to face, verbal and written
+5+ years of experience in front-end and UI development.
+Solid development experience HTML5, CSS3, Sass, and understanding about Less.
+Deep understanding about JavaScript, TypeScript, and React.
+Passion for beautiful design.
+Most importantly, attention to detail.
+Experience with the following will put you ahead of others:
 
-•             Comfortable presenting or speaking to groups of different authority levels
+Experience in other JavaScript application frameworks such as Angular, EmberJS, Vue etc.
+A good understanding of Object Oriented Programming philosophies and modern-day best practices.
+Understanding and knowledge about C# and ASP.NET.
+Experience in mobile app development on Android, iOS or X platform.
+Experience in or exposure to developing in an Agile environment.
+Experience with testing principles such as TDD and CI.
+Understanding of SQL, LINQ and Databases.
+Knowledge about Domain Driven Development, CQRS.
+Non-Technical:
 
-•             Must be a self starter, motivated and able to work independently.
+Implement commercial business requirements into high-quality code and algorithms
+Collaboration with a broad team and internal stakeholders
+Provide product support – utilising highly developed verbal and written communication skills using face-to-face, telephone and email media
+A formal qualification in the relevant discipline would be advantageous to your application
+We Offer:
 
-•             A demonstrated passion in both software and systems.
+In addition to the opportunity to do truly meaningful work, Rauland offers a competitive package with everything you would expect and more: 
 
-•             IT skills in SQL and database type applications will be highly regarded.
+Leave entitlements so you can rest, recharge and spend valued time with your loved ones!  In addition to all standard Fairwork Leave entitlements, we also offer:
 
-•             Have the ability to understand customer needs and requirements and recognise how to translate them to solutions.
+8 weeks paid Parental Leave for primary carers and an additional 3 weeks of paid return to work bonus
+4 weeks paid Parental Leave for secondary carers
+1 week paid Learning Leave per year
+Hybrid arrangement: working from home 2 days and in the office 3 days (where it is practical to do so). 
+Learning Leave so you can study and advance your career: You can get one additional week of leave each year for study and education purposes.
+Enjoy recognition for your great work! On the spot recognition, quarterly Peer to Peer Awards and Annual Excellence Awards.
+The company of a tight knit team! Our diverse team support each other to achieve outcomes and enjoy a calendar of social and mental wellbeing initiatives. 
+Employee Benefits Program. Access to everyday savings from brands you know and love, events to participate in, healthy living inspiration, and much more. 
+Employee Referral Program. Earn bonuses for inviting your friends to work and grow with us!
+Employee Assistance Program for when you need that extra support.
+Culture and benefits 
 
-Application Requirements:
-
-Must be able to work in Australia (PR or citizen)
-
-Must be based in Melbourne
-
-Employer questions
-Your application will include the following questions:
-Which of the following statements best describes your right to work in Australia?
-What's your expected annual base salary?
-Have you completed a qualification in ICT?
-Do you have a current Australian driver's licence?
-How many years' experience do you have using SQL queries?
+We are committed to helping our team reach their highest potential and maximise their career success. Our dedication to those we serve propels our company forward, creating a fantastic chance for passionate individuals to advance and excel with a top care technology company with countless growth possibilities. 
