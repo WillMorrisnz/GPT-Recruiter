@@ -157,7 +157,7 @@ def evaluate_seek_job_listings(search_term, num_jobs, job_searh_radius_km, save_
 # -------------------------
 
 job_searh_radius_km = 30
-search_term = 'Full Stack'
+search_term = 'Junior'
 number_of_jobs = 60
 
 

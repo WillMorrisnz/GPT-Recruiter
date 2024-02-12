@@ -136,7 +136,7 @@ def scrape_job_descriptions(job_page_links, num_jobs):
 # -------------------------
 
 
-def scrape_seek_job_data(job_searh_radius_km, search_term='Engineer', num_jobs=20):
+def scrape_seek_job_data(search_term='Engineer', num_jobs=20, job_searh_radius_km=10):
     seek_search_link = construct_seek_search_link(search_term, search_distance=job_searh_radius_km)
     job_page_links = scrape_job_page_links_from_seek(seek_search_link, num_jobs)
     job_data_dict = scrape_job_descriptions(job_page_links, num_jobs)
